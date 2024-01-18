@@ -27,6 +27,8 @@ int main(int argc, char const *argv[])
         scanf("%s", alumnos[i].direccion);
         printf("Carrera del Alumno: ");
         scanf("%s", alumnos[i].carrera);
+        printf("Promedio del Alumno: ");
+        scanf("%f", alumnos[i].promedio);
     }
     /*Imprimir todo los datos que se obtuvo*/
     printf("\n Alumnos \n");
@@ -36,6 +38,7 @@ int main(int argc, char const *argv[])
         printf("Nombre %s:\n", alumnos[i].nombre);
         printf("Direccion %s:\n", alumnos[i].direccion);
         printf("Carrera %s:\n", alumnos[i].carrera);
+        printf("Promedio %.2f:\n", alumnos[i].promedio);
         printf("\n");
     }
 
